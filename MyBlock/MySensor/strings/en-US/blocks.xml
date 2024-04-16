@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorStrings>
+  <PolyGroups ModuleName="MySensor">
+	<PolyGroup Name="MySensor" DisplayName="MySensor" DisplayNamePrefix="MySensor">
+
+      <Parameter Name="Port" DisplayName="Port" >
+        <Description><![CDATA[<p>Context help for Port</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Value" DisplayName="Random Number">
+        <Description><![CDATA[<p>Context help for Random Number</p>]]></Description>
+      </Parameter>
+
+      <Block Mode="ArduinoReadValue" DisplayName="Arduino Value">
+        <Description><![CDATA[<p>Context help for Measure Sensor Value</p>]]></Description>
+      </Block>
+    <!-- <Block Mode="WaitSampleSensorSampleCompareValue" DisplayName="" >
+        <Description><![CDATA[<p>Context help for Wait - Sample Sensor - Compare - Sensor Value</p>]]></Description>
+      </Block>
+    <Block Mode="WaitSampleSensorSampleChangeValue" DisplayName="" >
+        <Description><![CDATA[<p>Context help for Wait - Sample Sensor - Change - Sensor Value</p>]]></Description>
+      </Block>
+    <Block Mode="LoopSampleSensorSampleCompareValue" DisplayName="" >
+        <Description><![CDATA[<p>Context help for Loop - Sample Sensor - Compare - Sensor Value</p>]]></Description>
+      </Block>  	  
+    <Block Mode="SwitchSampleSensorSampleCompareValue" DisplayName="" >
+       <Description><![CDATA[<p>Context help for Switch - Sample Sensor - Compare - Sensor Value</p>]]></Description>
+      </Block>	   -->
+    </PolyGroup>
+  </PolyGroups>
+</EditorStrings>
